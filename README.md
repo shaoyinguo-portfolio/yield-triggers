@@ -1,3 +1,5 @@
+[![Makefile CI](https://github.com/shaoyinguo-portfolio/yield-triggers/actions/workflows/makefile.yml/badge.svg)](https://github.com/shaoyinguo-portfolio/yield-triggers/actions/workflows/makefile.yml)
+
 # Proactive Yield Loss Drift Detection & Alerting with Adaptive Cadence Configuration
 
 ## Background
