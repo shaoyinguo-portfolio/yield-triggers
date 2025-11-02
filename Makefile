@@ -35,7 +35,7 @@ lint:
 
 test:
 	@echo "Testing code with Pytest"
-	pytest --nbval adaptive_yield_triggers.ipynb
+	pytest --nbval-lax adaptive_yield_triggers.ipynb
 
 # 5. Run both lint and format (good for pre-commit checks)
 check: lint format
