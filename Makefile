@@ -33,6 +33,10 @@ lint:
 	@echo "Linting code with Ruff..."
 	ruff check .
 
+test:
+	@echo "Testing code with Pytest"
+	pytest --nbval adaptive_yield_triggers.ipynb
+
 # 5. Run both lint and format (good for pre-commit checks)
 check: lint format
 	@echo "Code checks complete."
